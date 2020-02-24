@@ -1,0 +1,27 @@
+{
+  "name": "cbox",
+  "version": "0.0.1",
+  "description": "An tool to bundle JS such as webpack for experimental purposes.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Gerardo Gallegos <puxerop@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "@babel/core": "^7.8.4",
+    "@babel/parser": "^7.8.4",
+    "@babel/preset-env": "^7.8.4",
+    "@babel/traverse": "^7.8.4",
+    "react": "^16.12.0",
+    "resolve": "^1.15.1"
+  },
+  "devDependencies": {
+    "babel-eslint": "^10.0.3",
+    "standard": "^14.3.1"
+  },
+  "standard": {
+    "parser": "babel-eslint"
+  }
+}
